@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>   
+<head>
+     <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  background-color: #f8f6ec;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #994d24;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: thistle;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a href="#home">Projekti</a>
+  <a href="otrais.html">Tēma</a>
+</div>
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 0) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "fixed";
+  }
+}
+</script>
+ <title>
+            Mans datorikas portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+         body {background-color: thistle}
+         h1 {color: linen}
+         body {color: saddlebrown}
+        </style>
+        <br>
+<br>
+<br>
+       
+        <h1><b><center>Mans datorikas portfolio</center></b></h1>
+        <div><ul><b>Inkscape</b></ul>
+                 <img src="images/plakats.png" alt="" width="500" height="650"/>
+          <img src="images/kūk.png" alt="" width="500" height="650"/>
+                 <ul><b>Gimp</b></ul>
+            <img src="images/cookiegiffinal.gif" alt="" width="500" height="300"/>
+            <ul><b>Excel</b></ul>
+            <ul><b>Video veidošana</b></ul></div>
+        <a href="otrais.html"> <img src="images/arrow.jpg" alt="" width="300" height="200"/> </a>
+            <a href="forma.html">Forma</a>
+            <a href="dzerdaudz.html">Dzer daudz</a>
+            <a href="dzer.html">Dzer</a>
+    </body>
+</html>
